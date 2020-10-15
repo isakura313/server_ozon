@@ -1,15 +1,23 @@
 const express = require("express");
+// пакет node для работы с путями файлов
+const path = require('path');
+
+const port = process.env.PORT || 3000;
+// msql 3306
+
 const app = express();
-const port = 3000;
+// создание объекта приложения
+
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'build')));
 
 app.get("/", (req, res) => {
-  res.send("<h1> Главная страница</h1> <a href='shop'>shop</a>");
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.get("/shop", (req, res) => {
-  res.send("<h1> А это страница магазина </h1>");
-});
 
 app.listen(port, () => {
+  console.log(process)
+  console.log(__dirname)
   console.log(`Example app listening at http://localhost:${port}`);
 });
