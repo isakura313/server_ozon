@@ -25,13 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4bd841e-03ab-4911-a5a2-68a3f8340b81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/deals.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/deals.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ask.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/db.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/deals.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/deals.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +63,8 @@
       <workItem from="1602582701099" duration="458000" />
       <workItem from="1602751847008" duration="4225000" />
       <workItem from="1603177957423" duration="6115000" />
+      <workItem from="1603351254058" duration="5053000" />
+      <workItem from="1603361340666" duration="64000" />
     </task>
     <servers />
   </component>
@@ -81,16 +81,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="335" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603181195339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="335" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1603181195339" />
-    <state x="149" y="1" key="SettingsEditor" timestamp="1603183907308">
+    <state x="149" y="1" key="SettingsEditor" timestamp="1603351307315">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="149" y="1" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603183907308" />
+    <state x="149" y="1" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603351307315" />
     <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1602752387399">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
