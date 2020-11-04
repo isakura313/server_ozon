@@ -27,7 +27,22 @@
     <list default="true" id="e4bd841e-03ab-4911-a5a2-68a3f8340b81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/db.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/deals.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/deals.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/deal.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/deal.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/deals.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/deals.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ask.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dist/index.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/styles/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
@@ -47,8 +62,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,7 +85,10 @@
       <workItem from="1602751847008" duration="4225000" />
       <workItem from="1603177957423" duration="6115000" />
       <workItem from="1603351254058" duration="5053000" />
-      <workItem from="1603361340666" duration="64000" />
+      <workItem from="1603361340666" duration="244000" />
+      <workItem from="1603545021658" duration="1667000" />
+      <workItem from="1603571284995" duration="5442000" />
+      <workItem from="1603619813480" duration="1971000" />
     </task>
     <servers />
   </component>
@@ -84,17 +108,28 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="460" y="124" key="#Deployment" timestamp="1603624026663">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="460" y="124" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1603624026663" />
     <state x="335" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603181195339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="335" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1603181195339" />
-    <state x="149" y="1" key="SettingsEditor" timestamp="1603351307315">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="199" y="1" key="SettingsEditor" timestamp="1603624052575">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="149" y="1" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603351307315" />
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1602752387399">
-      <screen x="0" y="23" width="1440" height="794" />
+    <state x="199" y="1" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603624052575" />
+    <state x="821" y="116" key="ftp.server.browser" timestamp="1603623932870">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="821" y="116" key="ftp.server.browser/0.0.1920.1080@0.0.1920.1080" timestamp="1603623932870" />
+    <state x="401" y="0" width="1118" height="1404" key="search.everywhere.popup" timestamp="1603625249883">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="301" y="0" width="838" height="1170" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603571628898" />
+    <state x="401" y="0" width="1118" height="1404" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603625249883" />
     <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.794@0.23.1440.794" timestamp="1602752387399" />
   </component>
 </project>

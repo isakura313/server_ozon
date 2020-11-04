@@ -10,17 +10,16 @@ const app = express();
 // создание объекта приложения
 app.use(bodyParser.json())
 
-app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname, 'build')));
+// app.use(express.static(__dirname));
+// app.use(express.static(path.join(__dirname, 'build')));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.send("<h1> Hello, it' me Mario</h1>")
 });
 require("./app/routes/deals.routes")(app);
+app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.listen(port, () => {
-  console.log(process)
-  console.log(__dirname)
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Приложение запущено на http://localhost:${port}`);
 });
