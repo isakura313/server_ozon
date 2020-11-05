@@ -13,11 +13,6 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
@@ -25,26 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4bd841e-03ab-4911-a5a2-68a3f8340b81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/db.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/deals.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/deals.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/deal.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/deal.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/deals.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/deals.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ask.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/dist/index.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/styles/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +70,7 @@
       <workItem from="1603545021658" duration="1667000" />
       <workItem from="1603571284995" duration="5442000" />
       <workItem from="1603619813480" duration="1971000" />
+      <workItem from="1604600518506" duration="3657000" />
     </task>
     <servers />
   </component>
@@ -108,23 +90,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="460" y="124" key="#Deployment" timestamp="1603624026663">
+    <state x="460" y="124" key="#Deployment" timestamp="1604604891441">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="460" y="124" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1603624026663" />
+    <state x="460" y="124" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1604604891441" />
+    <state x="472" y="123" key="#Options" timestamp="1604604630144">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="472" y="123" key="#Options/0.0.1920.1080@0.0.1920.1080" timestamp="1604604630144" />
+    <state x="460" y="102" key="#Plugins" timestamp="1604604812315">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="460" y="102" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1604604812315" />
     <state x="335" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603181195339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="335" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1603181195339" />
-    <state x="199" y="1" key="SettingsEditor" timestamp="1603624052575">
+    <state x="199" y="1" key="SettingsEditor" timestamp="1604604840373">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="149" y="1" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603351307315" />
-    <state x="199" y="1" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603624052575" />
-    <state x="821" y="116" key="ftp.server.browser" timestamp="1603623932870">
+    <state x="199" y="1" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604604840373" />
+    <state x="821" y="116" key="ftp.server.browser" timestamp="1604604748637">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="821" y="116" key="ftp.server.browser/0.0.1920.1080@0.0.1920.1080" timestamp="1603623932870" />
+    <state x="821" y="116" key="ftp.server.browser/0.0.1920.1080@0.0.1920.1080" timestamp="1604604748637" />
     <state x="401" y="0" width="1118" height="1404" key="search.everywhere.popup" timestamp="1603625249883">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

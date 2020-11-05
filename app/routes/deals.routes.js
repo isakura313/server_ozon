@@ -17,5 +17,5 @@ module.exports = app =>{
     app.delete("/deal/:dealId", deals.delete);
 
     // Удаление прямо всех дел
-    app.delete("/deals", deals.deleteAll);
+    // app.delete("/deals", deals.deleteAll);
 }
