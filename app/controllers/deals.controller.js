@@ -2,6 +2,13 @@ const Deal = require("../models/deal.model.js");
 
 //Создаем и сохраняем новое дело
 exports.create = (req, res) => {
+
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, DELETE');
+
+  res.setHeader('Access-Control-Allow-Headers', 'origin, content-type, accept');
+  res.setHeader('Access-Control-Allow-Credentials', true);
+
   // Валидизация запроса
   if (!req.body) {
     res.status(400).send({
@@ -31,6 +38,14 @@ exports.create = (req, res) => {
 
 // Retrieve all Customers from the database.
 exports.findAll = (req, res) => {
+
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, DELETE');
+
+  res.setHeader('Access-Control-Allow-Headers', 'origin, content-type, accept');
+  res.setHeader('Access-Control-Allow-Credentials', true);
+
+
   Deal.getAll((err, data) => {
     if (err)
       res.status(500).send({
@@ -58,38 +73,15 @@ exports.findOne = (req, res) => {
   });
 };
 
-// Update a Customer identified by the customerId in the request
-// exports.update = (req, res) => {
-//     // Validate Request
-//     if (!req.body) {
-//         res.status(400).send({
-//             message: "Запрос не может быть пустым! Подумайте, что вы делаете? Вы точно отправляете, что надо?"
-//         });
-//     }
 
-// console.log(req.body);
-//
-//     Deal.updateById(
-//         req.params.id,
-//         new Deal(req.body),
-//         (err, data) => {
-//             if (err) {
-//                 if (err.kind === "not_found") {
-//                     res.status(404).send({
-//                         message: `Not found Customer with id ${req.params.id}.`
-//                     });
-//                 } else {
-//                     res.status(500).send({
-//                         message: "Error updating deal with id " + req.params.id
-//                     });
-//                 }
-//             } else res.send(data);
-//         }
-//     );
-// };
 
 // Delete a Customer with the specified customerId in the request
 exports.delete = (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, DELETE');
+
+  res.setHeader('Access-Control-Allow-Headers', 'origin, content-type, accept');
+  res.setHeader('Access-Control-Allow-Credentials', true);
   Deal.remove(req.params.dealId, (err, data) => {
     if (err) {
       if (err.kind === "not_found") {

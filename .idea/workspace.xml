@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4bd841e-03ab-4911-a5a2-68a3f8340b81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/db.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/deals.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/deals.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/deal.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/deal.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/deals.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/deals.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,9 @@
       <workItem from="1603545021658" duration="1667000" />
       <workItem from="1603571284995" duration="5442000" />
       <workItem from="1603619813480" duration="1971000" />
-      <workItem from="1604600518506" duration="3657000" />
+      <workItem from="1604600518506" duration="4721000" />
+      <workItem from="1604689882525" duration="3691000" />
+      <workItem from="1604697359661" duration="1777000" />
     </task>
     <servers />
   </component>
@@ -90,31 +90,35 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="460" y="124" key="#Deployment" timestamp="1604604891441">
+    <state x="460" y="124" key="#Deployment" timestamp="1604689921836">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="460" y="124" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1604604891441" />
+    <state x="460" y="124" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1604689921836" />
     <state x="472" y="123" key="#Options" timestamp="1604604630144">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="472" y="123" key="#Options/0.0.1920.1080@0.0.1920.1080" timestamp="1604604630144" />
-    <state x="460" y="102" key="#Plugins" timestamp="1604604812315">
+    <state x="460" y="102" key="#Plugins" timestamp="1604604900692">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="460" y="102" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1604604812315" />
+    <state x="460" y="102" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1604604900692" />
     <state x="335" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603181195339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="335" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1603181195339" />
-    <state x="199" y="1" key="SettingsEditor" timestamp="1604604840373">
+    <state x="318" y="87" width="1720" height="880" key="DirDiffDialog" timestamp="1604606602204">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="318" y="87" width="1720" height="880" key="DirDiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604606602204" />
+    <state x="199" y="1" key="SettingsEditor" timestamp="1604605101723">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="149" y="1" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603351307315" />
-    <state x="199" y="1" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604604840373" />
-    <state x="821" y="116" key="ftp.server.browser" timestamp="1604604748637">
+    <state x="199" y="1" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604605101723" />
+    <state x="821" y="116" key="ftp.server.browser" timestamp="1604605686550">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="821" y="116" key="ftp.server.browser/0.0.1920.1080@0.0.1920.1080" timestamp="1604604748637" />
+    <state x="821" y="116" key="ftp.server.browser/0.0.1920.1080@0.0.1920.1080" timestamp="1604605686550" />
     <state x="401" y="0" width="1118" height="1404" key="search.everywhere.popup" timestamp="1603625249883">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

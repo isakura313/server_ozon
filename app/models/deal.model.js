@@ -54,28 +54,6 @@ Deal.getAll = (result) => {
   });
 };
 
-// Deal.updateById = (id, deal, result) => {
-//     const queryUpdate = `UPDATE ${TableName} SET (prioriry = ?, text = ? )  WHERE id = ${id}`;
-//     sql.query(
-//         queryUpdate,
-//         [deal.text, inner_key],
-//         (err, res) => {
-//             if (err) {
-//                 console.log("error: ", err);
-//                 result(null, err);
-//                 return;
-//             }
-//
-//             if (res.affectedRows == 0) {
-//                 result({ kind: "not_found" }, null);
-//                 return;
-//             }
-//
-//             console.log("Обновлено дело ", { inner_key: inner_key, ...deal });
-//             result(null, { inner_key: inner_key, ...deal });
-//         }
-//     );
-// };
 
 Deal.remove = (id, result) => {
   const queryDelete = `DELETE FROM ${TableName} WHERE id = ?`;
